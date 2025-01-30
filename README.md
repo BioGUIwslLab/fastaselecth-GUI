@@ -29,7 +29,7 @@ sudo mv /tmp/fastaselecth /usr/bin/fastaselecth
 
 Click `browse` to select the input fasta, txt and output directory to save the output fasta file
 
-The output fasta file will the the same filename as the input txt file but with a `.fasta` extension.
+The output fasta file will the the same filename as the input txt file but with a `.fasta` extension, unless a single-fasta format is specified were the filenames will be the input ids.
 
 If Rejection of the entries of the input txt file is selected the output will contain all the entries but those within the input txt file. In that case the output file will have a `non_` prefix, the input txt filename and a `.fasta` extension.
 
